@@ -183,3 +183,6 @@ UPDATE `creature_template` SET faction = 14 WHERE entry IN (36950,38406,38685,38
 
 /*This will modify the faction of the two NPCs, Sunreaver and Silver Covenant Agents, required to be killed for the WOTLK "The Battered Hilt" quest chains by the opposing faction*/
 UPDATE `acore_world`.`creature_template` SET `faction` = 7 WHERE `entry` IN (36776, 36774);
+
+/*This will modify the faction of four NPCs, Mag'har Grunt, Debilitated Mag'har Grunt, Mag'har Watcher and Mag'har Hunter, required to be killed for the Hellfire Penisula quest chain*/
+UPDATE `acore_world`.`creature_template` SET `faction` = 14 WHERE `entry` IN (16846,16847,16911,16912);
